@@ -1,0 +1,43 @@
+{
+  "name": "max-min-coordinate",
+  "version": "0.0.0",
+  "description": "Find the maximum and the minimum value of coordinate X and Y in an array",
+  "license": "MIT",
+  "repository": "jeffminsungkim/max-min-coordinate",
+  "author": {
+    "name": "JeffMinsungKim",
+    "email": "jeffminsungkim@gmail.com",
+    "url": "https://jeffminsungkim.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "jest",
+    "watchtest": "jest --watch"
+  },
+  "files": [
+    "index.js"
+  ],
+  "jest": {
+    "setupTestFrameworkScriptFile": "jest-extended",
+    "testRegex": "(/__tests__/|(\\.|/)(test|spec))\\.(jsx?|tsx?)$"
+  },
+  "keywords": [
+    "max-min-coordinate",
+    "max min coordinate",
+    "longitude",
+    "latitude",
+    "max",
+    "min",
+    "coordinate",
+    "coordinate list",
+    "coordinate array",
+    "x y coordinate"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "jest-extended": "^0.7.1"
+  }
+}
