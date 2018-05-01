@@ -1,6 +1,6 @@
 {
   "name": "max-min-coordinate",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Find the maximum and the minimum value of coordinate X and Y in an array",
   "license": "MIT",
   "repository": "jeffminsungkim/max-min-coordinate",
