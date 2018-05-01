@@ -2,7 +2,7 @@
 
 > Find the maximum and the minimum value of coordinate X and Y in an array
 
-Latitude is the Y axis, longitude is the X-axis.
+Latitude is the Y-axis, longitude is the X-axis.
 
 
 ## Install
