@@ -19,16 +19,16 @@ const m = require('max-min-coordinate');
 const coordinates = [44.2324, 12.5513, 341.1434, -334.2315, 44.1322, 44.8886];
 
 m.getMaxLongitude(coordinates);
-//=> 341.1434
-
-m.getMinLongitude(coordinates);
-//=> 44.1322
-
-m.getMaxLatitude(coordinates);
 //=> 44.8886
 
-m.getMinLatitude(coordinates);
+m.getMinLongitude(coordinates);
 //=> -334.2315
+
+m.getMaxLatitude(coordinates);
+//=> 341.1434
+
+m.getMinLatitude(coordinates);
+//=> 44.1322
 ```
 
 

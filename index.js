@@ -1,5 +1,5 @@
 "use strict";
-exports.getMaxLongitude = input => {
+exports.getMaxLatitude = input => {
 
   if (Object.prototype.toString.call(input) !== "[object Array]")
     throw new TypeError(`Expected an Array, got ${typeof input}`);
@@ -15,7 +15,7 @@ exports.getMaxLongitude = input => {
   return maxLong;
 };
 
-exports.getMinLongitude = input => {
+exports.getMinLatitude = input => {
   if (Object.prototype.toString.call(input) !== "[object Array]")
     throw new TypeError(`Expected an Array, got ${typeof input}`);
 
@@ -30,7 +30,7 @@ exports.getMinLongitude = input => {
   return minLong;
 };
 
-exports.getMaxLatitude = input => {
+exports.getMaxLongitude = input => {
   if (Object.prototype.toString.call(input) !== "[object Array]")
     throw new TypeError(`Expected an Array, got ${typeof input}`);
 
@@ -45,7 +45,7 @@ exports.getMaxLatitude = input => {
   return maxLat;
 };
 
-exports.getMinLatitude = input => {
+exports.getMinLongitude = input => {
   if (Object.prototype.toString.call(input) !== "[object Array]")
     throw new TypeError(`Expected an Array, got ${typeof input}`);
 

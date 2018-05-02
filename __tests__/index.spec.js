@@ -36,52 +36,52 @@ describe("Check the maximum and minimum value of Longitude & Latitude", () => {
     126.79268240808228
   ];
 
-  it("should return 34.863160328629576", () => {
-    maxLon = 34.863160328629576;
+  it("should return 126.79294260279168", () => {
+    maxLon = 126.79294260279168;
     expect(m.getMaxLongitude(coordinates)).toBe(maxLon);
     expect(m.getMaxLongitude(coordinates)).toBeNumber();
   });
 
-  it("should return 34.8627855740095", () => {
-    minLat = 34.8627855740095;
+  it("should return 126.79239676562504", () => {
+    minLat = 126.79239676562504;
     expect(m.getMinLongitude(coordinates)).toBe(minLat);
     expect(m.getMinLongitude(coordinates)).toBeNumber();
   });
 
-  it("should return 126.79294260279168", () => {
-    maxLat = 126.79294260279168;
+  it("should return 34.863160328629576", () => {
+    maxLat = 34.863160328629576;
     expect(m.getMaxLatitude(coordinates)).toBe(maxLat);
     expect(m.getMaxLatitude(coordinates)).toBeNumber();
   });
 
-  it("should return 126.79239676562504", () => {
-    minLat = 126.79239676562504;
+  it("should return 34.8627855740095", () => {
+    minLat = 34.8627855740095;
     expect(m.getMinLatitude(coordinates)).toBe(minLat);
     expect(m.getMinLatitude(coordinates)).toBeNumber();
   });
 
-  it("should return 341.1434", () => {
-    maxLong = 341.1434;
+  it("should return 44.8886", () => {
+    maxLong = 44.8886;
     expect(m.getMaxLongitude(stringCoordinates)).toBe(maxLong);
     expect(m.getMaxLongitude(stringCoordinates)).toBeNumber();
   });
 
-  it("should return 44.1322", () => {
-    minLong = 44.1322;
+  it("should return -334.2315", () => {
+    minLong = -334.2315;
     expect(m.getMinLongitude(stringCoordinates)).toBe(minLong);
     expect(m.getMinLongitude(stringCoordinates)).toBeNumber();
   });
 
-  it("should return 44.8886", () => {
-    maxLat = 44.8886;
+  it("should return 341.1434", () => {
+    maxLat = 341.1434;
     expect(m.getMaxLatitude(stringCoordinates)).toBe(maxLat);
     expect(m.getMaxLatitude(stringCoordinates)).toBeNumber();
   });
 
-  it("should return -334.2315", () => {
-    minLat = -334.2315;
+  it("should return 44.1322", () => {
+    minLat = 44.1322;
     expect(m.getMinLatitude(stringCoordinates)).toBe(minLat);
-    expect(m.getMaxLatitude(stringCoordinates)).toBeNumber();
+    expect(m.getMinLatitude(stringCoordinates)).toBeNumber();
   });
 });
 
