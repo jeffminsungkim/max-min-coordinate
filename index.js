@@ -1,11 +1,12 @@
 "use strict";
 exports.getMaxLatitude = input => {
-
   if (Object.prototype.toString.call(input) !== "[object Array]")
     throw new TypeError(`Expected an Array, got ${typeof input}`);
 
   if (input.length & 1)
-    throw new Error("Invalid pair of coordinate. Please check your list of cooridinate.");
+    throw new Error(
+      "Invalid pair of coordinate. Please check your list of cooridinate."
+    );
 
   let maxLong = input[0];
 
@@ -20,12 +21,14 @@ exports.getMinLatitude = input => {
     throw new TypeError(`Expected an Array, got ${typeof input}`);
 
   if (input.length & 1)
-    throw new Error("Invalid pair of coordinate. Please check your list of cooridinate.");
+    throw new Error(
+      "Invalid pair of coordinate. Please check your list of cooridinate."
+    );
 
   let minLong = input[0];
 
   for (let i = 0; i < input.length; i += 2)
-  	minLong = Math.min(input[i] * 1, minLong);
+    minLong = Math.min(input[i] * 1, minLong);
 
   return minLong;
 };
@@ -35,7 +38,9 @@ exports.getMaxLongitude = input => {
     throw new TypeError(`Expected an Array, got ${typeof input}`);
 
   if (input.length & 1)
-    throw new Error("Invalid pair of coordinate. Please check your list of cooridinate.");
+    throw new Error(
+      "Invalid pair of coordinate. Please check your list of cooridinate."
+    );
 
   let maxLat = input[1];
 
@@ -50,7 +55,9 @@ exports.getMinLongitude = input => {
     throw new TypeError(`Expected an Array, got ${typeof input}`);
 
   if (input.length & 1)
-    throw new Error("Invalid pair of coordinate. Please check your list of cooridinate.");
+    throw new Error(
+      "Invalid pair of coordinate. Please check your list of cooridinate."
+    );
 
   let minLat = input[1];
 
